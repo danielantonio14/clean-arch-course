@@ -27,6 +27,6 @@ app.get('/', (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`🚀 Server running on http://localhost:${PORT}`);
-  console.log(`📚 Clean Architecture Course - Ready to learn!`);
+  console.log(`Server running on http://localhost:${PORT}`);
+  console.log(`Clean Architecture Course - Ready to learn!`);
 });
